@@ -1,0 +1,90 @@
+.container {
+  position: relative;
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 36px;
+}
+
+.top-button {
+  margin-top: 50px; 
+  margin-left: -1050px; 
+  padding: 10px;
+  font-size: 15px;
+  background-color: #009879;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.top-button:hover {
+  background-color: #007a66;
+}
+.top-right {
+	position: absolute;
+	top: 73px;
+	right: 20px;
+}
+.top-right form {
+	margin-bottom: 5px;
+}
+.top-right input {
+	margin-bottom: 5px;
+	padding: 5px;
+	border-radius: 2px;
+ }
+ .top-right button {
+	padding: 5px 10px;
+	width: 27%;
+	font-size: 17px;
+	background-color: #009879;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.top-right button:hover {
+	background-color: #007a66;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+th {
+	background-color: #F63C51;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+td {
+	font-size: 14px;            /*size of the text inside table cases*/
+}
+th:nth-child(1), td:nth-child(1),
+th:nth-child(7), td:nth-child(7),
+th:nth-child(8), td:nth-child(8),
+th:nth-child(3), td:nth-child(3) { 
+  width: 40px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
