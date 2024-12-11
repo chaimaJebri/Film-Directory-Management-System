@@ -1,0 +1,99 @@
+@charset "ISO-8859-1";
+
+/* DropDown Menu & Add Film button Styling */
+.leftSide{
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.leftSide button {
+	padding :7px;
+	margin :15px;
+}
+
+/* Search Input Styling & Pagination */
+.searchForm, .pagination{
+	display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+
+/* Header Styling */
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+  font-size: 40px;
+  text-align: center;
+}
+
+/* Table Styling */
+.tab-container {
+	max-width: 1250px; 
+    margin: 0 auto; 
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 3px;
+  text-align: center;
+}
+th {
+	background-color: #5e005e;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+td {
+	font-size: 14px;            /*size of the text inside table cases*/
+}
+th:nth-child(1), td:nth-child(1),
+th:nth-child(7), td:nth-child(7),
+th:nth-child(8), td:nth-child(8),
+th:nth-child(3), td:nth-child(3) { 
+  width: 40px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+/* Modal Styling */
+.modal-dialog {
+    max-width: 350px;
+}
+.modal-body {                /* to put labels and inputs in the center of the modal */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-container{
+	border-radius: 8px;
+}
+.form-container	h4 {
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.form-container label {
+    display: block; 
+    margin-bottom: 3px;
+    font-family: 'Arial', sans-serif;
+}
+
+.form-container input {
+    width: 90%;
+    padding: 8px; 
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+	border-radius: 4px;
+}
