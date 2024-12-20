@@ -1,5 +1,3 @@
-README
-
 # Overview
 This repository contains the code for the Films web application which is developed with different architectural approaches (MVC and RESTful web service with a JavaScript client). 
 The web application allows users to perform CRUD functionalities on a films database. Additionally, it exchanges data in 3 different formats (JSON, XML, and Text) through a RESTful web service.
