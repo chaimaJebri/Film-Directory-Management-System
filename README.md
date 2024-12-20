@@ -19,7 +19,7 @@ The MVC web application is implemented using various Java controllers (e.g. Retr
 
 # The Film RESTful API
 The Restful API uses HTTP methods (Get, Post, Put, Delete) to enable full CRUD functionalities on the film database. It is built to exchange data in JSON, XML, or Text.
-### Endpoint URL: 
+## Endpoint URL: 
 http://localhost:8080/FilmRestful/film-api  
 Any REST client can be used to test the REST API (e.g. Postman, Postcode, CURL.).
 
