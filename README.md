@@ -31,6 +31,7 @@ The web application is implemented using HTML, CSS, and JavaScript, alongside jQ
 ## Usage:
 * Download the FilmRestful folder.
 * Import the project into Eclipse.
+* Configure MySQL database.
 * Run the project (Right click on the project – Run as – Run on server) | Upon initial launch of the project, a welcome page with an animated video is displayed. By clicking on the “Browse Films” button, you will be directed to the main web view where you can perform CRUD functionalities on the films.
 
 Author  
