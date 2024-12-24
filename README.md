@@ -3,7 +3,7 @@ This repository contains the code for the Films web application which is develop
 The web application allows users to perform CRUD functionalities on a films database. Additionally, it exchanges data in 3 different formats (JSON, XML, and Text) through a RESTful web service.
 
 # Technologies & Tools
-* Java 11
+* Java 17 (MVC Web App) / Java 11 (RESTful API)
 * Apache Tomcat v9.0
 * MySQL Database
 * Eclipse IDE
